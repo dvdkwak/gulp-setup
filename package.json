@@ -1,0 +1,22 @@
+{
+  "type": "commonjs",
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "David Kwakernaak",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.8"
+  },
+  "dependencies": {},
+  "scripts": {
+    "start": "yarn gulp",
+    "build": "yarn gulp build",
+    "serve": "yarn gulp serve",
+    "watch": "yarn gulp watcher"
+  }
+}
